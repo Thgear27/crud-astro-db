@@ -6,13 +6,13 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
-    "preview": "astro preview",
+    "preview": "deno run --allow-net --allow-read --allow-env --allow-ffi ./dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
     "@astrojs/db": "^0.10.1",
-    "@astrojs/node": "^8.2.5",
+    "@astrojs/deno": "github:antonyfaris/deno-astro-adapter",
     "astro": "^4.5.16",
     "typescript": "^5.4.4"
   }

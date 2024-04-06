@@ -1,13 +1,13 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 import db from "@astrojs/db";
 
-import node from "@astrojs/node";
+import deno from "@astrojs/deno";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [db()],
   output: "server",
-  adapter: node({
-    mode: "standalone"
-  })
+  adapter: deno({
+    mode: "standalone",
+  }),
 });

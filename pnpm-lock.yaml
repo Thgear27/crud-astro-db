@@ -13,7 +13,7 @@ dependencies:
     version: 0.10.1
   '@astrojs/deno':
     specifier: github:antonyfaris/deno-astro-adapter
-    version: github.com/antonyfaris/deno-astro-adapter/03cc966e3b2b71aa08796324018cc117e44cb304(astro@4.5.16)
+    version: github.com/antonyfaris/deno-astro-adapter/7551803a193ec9d2eacd700dbf51a6d79aa55073(astro@4.5.16)
   astro:
     specifier: ^4.5.16
     version: 4.5.16(typescript@5.4.4)
@@ -4520,9 +4520,9 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
 
-  github.com/antonyfaris/deno-astro-adapter/03cc966e3b2b71aa08796324018cc117e44cb304(astro@4.5.16):
-    resolution: {tarball: https://codeload.github.com/antonyfaris/deno-astro-adapter/tar.gz/03cc966e3b2b71aa08796324018cc117e44cb304}
-    id: github.com/antonyfaris/deno-astro-adapter/03cc966e3b2b71aa08796324018cc117e44cb304
+  github.com/antonyfaris/deno-astro-adapter/7551803a193ec9d2eacd700dbf51a6d79aa55073(astro@4.5.16):
+    resolution: {tarball: https://codeload.github.com/antonyfaris/deno-astro-adapter/tar.gz/7551803a193ec9d2eacd700dbf51a6d79aa55073}
+    id: github.com/antonyfaris/deno-astro-adapter/7551803a193ec9d2eacd700dbf51a6d79aa55073
     name: '@astrojs/deno'
     version: 5.0.1
     peerDependencies:

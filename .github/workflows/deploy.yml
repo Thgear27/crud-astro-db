@@ -41,6 +41,9 @@ jobs:
       - name: Build step
         run: "npx astro build --remote"
 
+      - name: install @libsql/linux-x64-gnu
+        run: npm install @libsql/linux-x64-gnu
+
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:

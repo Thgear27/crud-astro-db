@@ -2,7 +2,6 @@ import { defineConfig, passthroughImageService } from "astro/config";
 import db from "@astrojs/db";
 
 import deno from "@astrojs/deno";
-import { server } from "typescript";
 
 // https://astro.build/config
 export default defineConfig({

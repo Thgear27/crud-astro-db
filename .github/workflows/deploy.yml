@@ -1,4 +1,8 @@
 name: Deploy
+
+env:
+  ASTRO_STUDIO_APP_TOKEN: ${{secrets.ASTRO_STUDIO_APP_TOKEN }}
+
 on:
   push:
     branches: main
@@ -33,6 +37,9 @@ jobs:
 
       - name: Build step
         run: "npx astro build --remote"
+
+      - name: astro studio
+        uses: withastro/action-studio@main
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
